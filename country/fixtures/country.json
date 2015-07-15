@@ -79,5 +79,23 @@
       "city": "Kuantan",
       "show": false
     }
+  },
+  {
+    "model": "country.city",
+    "pk": 8,
+    "fields": {
+      "country": "2",
+      "city": "Sebastopol",
+      "show": true
+    }
+  },
+  {
+    "model": "country.city",
+    "pk": 9,
+    "fields": {
+      "country": "2",
+      "city": "Indianapolis",
+      "show": true
+    }
   }
 ]
