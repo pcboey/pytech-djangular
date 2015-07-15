@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Publisher : {{ publisher.name }}</h2>
+    <ul>
+      <li>Address : {{publisher.address}}</li>
+      <li>Country : {{publisher.country}}</li>
+      <li>City : {{ publisher.city }}</li>
+      <li>Website : {{object.website}}</li>
+      <li>Slug : {{publisher.slug}}</li>
+    </ul>
+</div>
+{% endblock %}
