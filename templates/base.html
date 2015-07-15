@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+{% load staticfiles %}
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="{% static "bower_components/bootstrap/dist/css/bootstrap.min.css" %}" >
+        
+        <script src="{% static "bower_components/jquery/dist/jquery.min.js" %}"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="{% static "bower_components/bootstrap/dist/js/bootstrap.js" %}"></script>
+        
+        
+        <!-- datetimepicker -->
+        <link rel="stylesheet" href="{% static "bootstrap3_datetime/css/bootstrap-datetimepicker.min.css" %}" >
+        <script src="{% static "bootstrap3_datetime/js/moment.min.js" %}"></script>
+        <script src="{% static "bootstrap3_datetime/js/bootstrap-datetimepicker.min.js" %}"></script>
+        
+        <!-- dropdownlist -->
+	<script src="{% static "js/jquery-migrate.min.js" %}"></script>
+        <script src="{% static "js/jquery.form.js" %}"></script>
+        <script src="{% static "js/jquery.jqia.selects.js" %}"></script>
+
+        {% block extrastyle %}{% endblock %}
+
+        <title>My Project</title>
+    </head>
+
+    <body>
+    {% block content %}{% endblock %}
+    </body>
+</html>
