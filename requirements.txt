@@ -3,3 +3,4 @@ djangorestframework==3.1
 Pillow
 ipython
 django-bootstrap3-datetimepicker
+django-crispy-forms
